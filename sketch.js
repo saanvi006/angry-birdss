@@ -15,7 +15,7 @@ var score = 0;
 var birdflying, birdselect, pigsnort
 
 function preload() {
-    getBackgroundImg();
+  backgroundImg = loadImage("sprites/bg2.jpg")
 
     birdflying = loadSound("sounds/bird_flying.mp3")
     birdselect = loadSound("sounds/bird_select.mp3")
